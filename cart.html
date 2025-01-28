@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shopping Cart</title>
+
+    <!-- Style Link -->
+
+    <link rel="stylesheet" href="./stylee.css">
+
+    <!-- Fontawsome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Favicon -->
+
+    <link rel="shortcut icon" type="image/x-icon" href="imgg/logoo.png">
+</head>
+
+<body>
+
+
+        <div id="navbar">
+
+            <img src="./imgg/logoo.png" >
+
+            <nav role="navigation">
+
+                <ul>
+
+                    <li><a href="indexx.html">Home</a></li>
+                    
+                    <li><a href="indexx.html#about">About</a></li>
+
+                    <li><a href="login.html">Login</a></li>
+
+                    <li><a href="product.html">Products</a></li>
+
+                    <li><a href="cart.html">Cart</a></li>
+
+                    <li><a href="indexx.html#contact">Contact us</a></li>
+
+
+
+                </ul>
+
+            </nav>
+
+        </div>
+      
+        
+    </header>
+    <div class="header">
+      <a href="product.html" class="btn btn-primary">X</a>
+      <p>My Cart </p>
+      <div class="carticon"><i class="fa-solid fa-cart-shopping"></i><p id="count">1</p>
+         
+      </div>
+      
+
+  </div>
+   <section>
+      <div class="container">
+         <div class="cart">
+            <div class="col-md-12 col-lg-10 mx-auto">
+               <div class="cart-item">
+                  <div class="row">
+                     <div class="col-md-7 center-item">
+                        <h7>WEATHERING VEST</h7><img src="imgg/p1.jpeg" alt="">
+                        
+                     </div>
+
+                     <div class="col-md-5 center-item">
+                        <div class="input-group number-spinner">
+                           <button id="P1-minus" class="btn btn-default"><i class="fas fa-minus"></i></button>
+                           <input id="P1-number" type="text" min="0" class="form-control text-center" value="1">
+                           <button id="P1-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <h5>$ <span id="P1-total">150</span> </h5>
+                     </div>
+                  </div>
+               </div>
+
+               
+
+               <div class="cart-item">
+                  <div class="row g-2">
+
+                     <div class="col-6">
+                        <h5>Subtotal:</h5><h5>$<span id="sub-total">150</span></h5>
+                        <h5>Tax:</h5><h5>$<span id="tax-amount">15</span></h5>
+                        <h5>Total:</h5><h5>$<span id="total-price">165</span></h5>
+                     </div>
+                     
+                  </div>
+               </div>
+               <div class="col-md-12 pt-4 pb-4">
+                  <button type="button" class="btn btn-success check-out">Check Out</button>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <script src="app.js"></script>
+
+   <footer id="footer">
+
+    <p>Copyright &copy; 2024 All rights reserved | made by GROUP</p>
+
+</footer>
+
+</body>
+</html>
