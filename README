@@ -1,16 +1,16 @@
-# Clothing Store Website
+ Clothing Store Website
 
 This project is a front-end web application developed using HTML, CSS, and JavaScript as part of a university course. The main purpose of this project is to apply and demonstrate fundamental web development skills by building a simple e-commerce website for selling clothing items.
 
 The website represents an online fashion store where users can browse through different categories of clothing products and view items presented in a structured and organized layout. The project focuses on building a clear and functional user interface using core web technologies without relying on external frameworks or libraries.
 
-#  Project Description
+  Project Description
 
 This application was designed to simulate a basic online shopping experience. It demonstrates how a static website can be structured to represent real-world e-commerce platforms. The project emphasizes clean code structure, proper layout organization, and effective use of JavaScript to handle basic interactivity.
 
 The development process helped improve understanding of how web pages are built from scratch and how different technologies work together to create a complete user experience.
 
-#  Key Features
+  Key Features
 
 - Display of clothing products in a structured layout
 - Organized product presentation for better user experience
@@ -18,13 +18,13 @@ The development process helped improve understanding of how web pages are built 
 - Basic interactive functionality using JavaScript
 - Clean and minimal user interface design
 
-#  Technologies Used
+  Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript (Vanilla JS)
 
-#  Learning Objectives
+  Learning Objectives
 
 This project was completed to achieve the following learning outcomes:
 - Understanding the structure of web pages using HTML
@@ -33,11 +33,11 @@ This project was completed to achieve the following learning outcomes:
 - Improving problem-solving skills in front-end development
 - Learning how to build a complete small-scale web project
 
-#  Academic Purpose
+  Academic Purpose
 
 This project was developed as part of a university coursework assignment to demonstrate practical skills in front-end web development and to gain hands-on experience in building functional web applications.
 
-#  Future Enhancements
+  Future Enhancements
 
 - Possible improvements for this project include:
 - Adding a backend system for dynamic product management
